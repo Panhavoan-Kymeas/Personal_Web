@@ -1,0 +1,49 @@
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blog-container {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+}
+.blog-container a {
+    text-decoration: none;
+    color: inherit;
+}
+.blog-container a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+.blog-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.blog-content {
+    flex: 1;
+}
+.date {
+    color: #666;
+    font-style: italic;
+}
+
+.blog-container a {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.blog-container h2 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.blog-container p {
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
